@@ -1,0 +1,31 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Burger Logger App  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afgettys/burger.git"
+  },
+  "keywords": [
+    "MySql",
+    "Node",
+    "Express",
+    "Handlebars",
+    "Heroku"
+  ],
+  "author": "Amanda Gettys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afgettys/burger/issues"
+  },
+  "homepage": "https://github.com/afgettys/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
