@@ -1,0 +1,39 @@
+body {
+    background-color:red;
+    display: flex;
+    flex-direction: column;
+    max-width: 555px;
+    min-width: 365px;
+    margin: auto;
+}
+
+h1 {
+    margin: auto;
+    padding: 10px;
+}
+h2 {
+    margin: auto;
+    color: rgb(70, 82, 100);
+}
+
+
+img {
+    margin: auto;
+    width: 150px;
+}
+
+.create-form {
+    margin: auto;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.to_eat {
+    background-color: rgb(221, 166, 94);
+    float: left;
+}
+.devoured {
+    float: right;
+}
+
