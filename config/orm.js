@@ -10,9 +10,9 @@ const orm = {
             if (err) throw err;
             cb(res);
         });
-    },
-    createItem: function(table, cols, vals, cb) {
-        let queryString = "INSERT INTO ??(??) VALUES (?);";
+    };
+    insertOne: function(table, cols, vals, cb) {
+        var queryString = "INSERT INTO ??(??) VALUES (?);";
         connection.query(queryString, [table, cols, vals], (err, res) => {
             if (err) throw err;
             console.log(queryString);
@@ -20,7 +20,7 @@ const orm = {
         })
 
     },
-    updateItem: function(table, col, value, id, cb) {
+    updateOne: function(table, col, value, id, cb) {
         var queryString = "UPDATE ?? SET ??=? WHERE id = ?;";
         connection.query(queryString, [table, col, value, id], (err, res) => {
             console.log(queryString);
