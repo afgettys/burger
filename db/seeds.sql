@@ -1,3 +1,3 @@
-INSERT INTO burgers_db (burger_name) VALUES ("Cheeseburguer")
-INSERT INTO burgers_db (burger_name) VALUES ("Veggieburguer")
-INSERT INTO burgers_db (burger_name) VALUES ("BaconCheeseburguer","true")
+INSERT INTO burgers (burger_name) VALUES ("Cheeseburger")
+INSERT INTO burgers (burger_name) VALUES ("Veggieburger")
+INSERT INTO burgers (burger_name, devoured) VALUES ("BaconCheeseburger","true")
